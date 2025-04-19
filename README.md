@@ -1,10 +1,25 @@
-🔧 步驟簡介
-1.資料收集（可從政府資料平台如 [內政部不動產交易實價登錄](https://plvr.land.moi.gov.tw/DownloadOpenData）下載）
+# Taipei House Price Prediction
 
-2.資料清洗與特徵工程
+This project is a simple house price prediction tool for Taipei City, using historical transaction data to analyze trends and forecast future prices.
 
-3.建立預測模型
+## Features
 
-4.測試與評估
+- **Data Visualization**: Visualize historical house prices to understand market trends.
+- **Trend Analysis**: Perform simple trend analysis using linear regression.
+- **Price Forecasting**: Forecast future house prices based on historical trends.
 
-5.預測房價
+## Requirements
+
+- **Python 3.x**: Ensure you have Python 3.x installed.
+- **Libraries**: The following Python libraries are required:
+  - `pandas`
+  - `matplotlib`
+  - `numpy`
+
+## Installation
+
+1. **Clone the Repository**: Clone the repository or download the source code.
+2. **Install Packages**: Install the required Python packages using pip:
+
+   ```bash
+   pip install pandas matplotlib numpy
